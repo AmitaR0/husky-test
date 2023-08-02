@@ -23,4 +23,4 @@ jobs:
       # - uses: sonarsource/sonarqube-quality-gate-action@master
       #   timeout-minutes: 5
       #   env:
-      #     SONAR_TOKEN: ${{ 'sqp_034788676f3f8a3b6cf8a36980d3692c8b26eaa9' }}
+      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
